@@ -22,6 +22,7 @@ export class IngredientCategory extends BaseEntity {
   })
   description?: string;
 
+  // Relations SELF
   @ManyToOne(
     (_: any) => IngredientCategory,
     (ingredientCategory) => ingredientCategory.children

@@ -17,6 +17,7 @@ export class RecipeCategory extends BaseEntity {
   })
   name!: string;
 
+  // Relations SELF
   @ManyToOne(
     (_: any) => RecipeCategory,
     (recipeCategory) => recipeCategory.children

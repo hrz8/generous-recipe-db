@@ -27,6 +27,7 @@ export class Ingredient extends BaseEntity {
   })
   img?: string;
 
+  // Relations M2M
   @ManyToMany(() => IngredientCategory)
   @JoinTable({
     name: "ingredient_category_ingredient"
