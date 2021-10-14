@@ -17,8 +17,10 @@ export class IngredientCategory extends BaseEntity {
   })
   name!: string;
 
-  @Column("text")
-  description!: string;
+  @Column("text", {
+    nullable: true
+  })
+  description?: string;
 
   @ManyToOne(
     (_: any) => IngredientCategory,
