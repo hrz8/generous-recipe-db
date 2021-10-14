@@ -55,6 +55,23 @@ const ingredients: Ingredient[] = [
       ingredientCategories[4],
       ingredientCategories[2]
     ]
+  },
+  {
+    id: 7,
+    name: "telur",
+    color: 948,
+    ingredientCatories: [
+      ingredientCategories[0],
+      ingredientCategories[3]
+    ]
+  },
+  {
+    id: 8,
+    name: "minyak",
+    color: 390,
+    ingredientCatories: [
+      ingredientCategories[2]
+    ]
   }
 ]
 

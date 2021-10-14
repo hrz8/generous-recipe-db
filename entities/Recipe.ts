@@ -8,7 +8,6 @@ import {
   ManyToOne,
   OneToMany,
 } from "typeorm";
-import { IngredientCategory } from "./IngredientCategory";
 import { RecipeCategory } from "./RecipeCategory";
 import { StepIngredients } from "./StepIngredients";
 import { User } from "./User";
