@@ -1,7 +1,6 @@
 import {
   Entity,
   Column,
-  BaseEntity,
   PrimaryGeneratedColumn,
   ManyToMany,
   JoinTable,
@@ -15,7 +14,7 @@ import { StepIngredients } from "./StepIngredients";
 import { User } from "./User";
 
 @Entity()
-export class Recipe extends BaseEntity {
+export class Recipe {
   @PrimaryGeneratedColumn()
   id!: number;
 

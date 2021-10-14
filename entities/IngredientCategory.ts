@@ -2,13 +2,12 @@ import {
   Entity,
   Column,
   OneToMany,
-  BaseEntity,
   PrimaryGeneratedColumn,
   ManyToOne,
 } from "typeorm";
 
 @Entity()
-export class IngredientCategory extends BaseEntity {
+export class IngredientCategory {
   @PrimaryGeneratedColumn()
   id!: number;
 

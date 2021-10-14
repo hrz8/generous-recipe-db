@@ -1,7 +1,6 @@
 import {
   Entity,
   Column,
-  BaseEntity,
   PrimaryGeneratedColumn,
   ManyToMany,
   JoinTable,
@@ -9,7 +8,7 @@ import {
 import { IngredientCategory } from "./IngredientCategory";
 
 @Entity()
-export class Ingredient extends BaseEntity {
+export class Ingredient {
   @PrimaryGeneratedColumn()
   id!: number;
 

@@ -8,3 +8,8 @@ mysql> exit
 [mysql-server]$ exit
 [generous-recipe-db]$ MYSQL_PASSWORD=password yarn start
 ```
+
+### Create migration
+```bash
+$ yarn migration <migration_name>
+```

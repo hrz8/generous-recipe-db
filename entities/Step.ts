@@ -2,7 +2,6 @@ import {
   Entity,
   Column,
   OneToMany,
-  BaseEntity,
   PrimaryGeneratedColumn,
   ManyToOne,
 } from "typeorm";
@@ -10,7 +9,7 @@ import { Recipe } from "./Recipe";
 import { StepIngredients } from "./StepIngredients";
 
 @Entity()
-export class Step extends BaseEntity {
+export class Step {
   @PrimaryGeneratedColumn()
   id!: number;
 
