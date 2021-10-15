@@ -8,7 +8,8 @@ const recipes: Recipe[] = [
     name: "Frutang Cungcan",
     author: users[3],
     recipeCategories: [
-      recipeCategories[2]
+      recipeCategories[2],
+      recipeCategories[0]
     ]
   },
   {

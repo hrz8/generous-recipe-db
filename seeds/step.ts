@@ -37,6 +37,27 @@ const steps: Step[] = [
     step_number: 5,
     timer: 5,
     description: "meng cracking kan"
+  },
+  {
+    id: 6,
+    recipe: recipes[3],
+    step_number: 1,
+    timer: 30,
+    description: "bla 1"
+  },
+  {
+    id: 7,
+    recipe: recipes[3],
+    step_number: 2,
+    timer: 20,
+    description: "bla 2"
+  },
+  {
+    id: 8,
+    recipe: recipes[3],
+    step_number: 3,
+    timer: 20,
+    description: "bla 3"
   }
 ]
 
